@@ -1,0 +1,48 @@
+{
+  "id": "claw-camp",
+  "name": "Claw Camp",
+  "description": "龙虾营地 - 连接到 Hub 上报系统状态、接收任务、发送消息",
+  "version": "2.0.0",
+  "kind": ["tools", "channel"],
+  "channels": ["claw-camp"],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "enabled": {
+        "type": "boolean",
+        "default": true
+      },
+      "hubUrl": {
+        "type": "string",
+        "default": "wss://camp.aigc.sx.cn/ws",
+        "description": "Hub WebSocket 地址"
+      },
+      "token": {
+        "type": "string",
+        "default": "",
+        "description": "Camp Token（用于认证）"
+      },
+      "agentId": {
+        "type": "string",
+        "default": "main",
+        "description": "Agent 唯一标识"
+      },
+      "agentName": {
+        "type": "string",
+        "default": "大龙虾",
+        "description": "Agent 显示名称"
+      },
+      "reportInterval": {
+        "type": "number",
+        "default": 5000,
+        "description": "上报间隔（毫秒）"
+      },
+      "updateToken": {
+        "type": "string",
+        "default": "",
+        "description": "远程更新令牌（可选）"
+      }
+    }
+  }
+}

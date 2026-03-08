@@ -1,0 +1,26 @@
+{
+  "name": "@claw-camp/openclaw-plugin",
+  "version": "2.1.2",
+  "description": "龙虾营地 OpenClaw 插件 - 连接 Hub、上报状态、收发消息、完整聊天支持",
+  "main": "index.ts",
+  "openclaw": {
+    "extensions": ["./index.ts"],
+    "id": "claw-camp"
+  },
+  "keywords": [
+    "openclaw",
+    "plugin",
+    "claw-camp",
+    "monitoring",
+    "agent"
+  ],
+  "author": "Phosa",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@sinclair/typebox": "^0.34.0",
+    "ws": "^8.18.0"
+  }
+}
