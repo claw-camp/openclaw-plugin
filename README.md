@@ -4,6 +4,11 @@
 
 Claw Camp Agent 是一个 OpenClaw 插件，用于监控本地系统状态并上报到龙虾营地 Hub。
 
+## 下载
+
+- **📱 手机 App**: [camp-flutter-latest.apk](https://camp.aigc.sx.cn/camp-flutter-latest.apk)（Android）
+- **🌐 网页版**: https://camp.aigc.sx.cn
+
 ## 功能
 
 - ✅ 采集 Gateway 状态
